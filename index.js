@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const cors = require("cors");
-const connectToMongo = require('./allServices/mongoConnect');
+const connectToMongo = require('./allServices/mongoConnect'); // test commit 
 // Import Passport configuration
 const passportConfig = require('./config/passport');
 
